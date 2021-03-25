@@ -521,9 +521,12 @@
       <h2 hidden>текст модалки</h2>
       <h3 class="modal-h3">Оставьте свои данные, мы вам перезвоним</h3>
     <form action="#" class="contact-form">
-      <input type="text" class="contacts-form-input">
-      <input type="email" class="contacts-form-input">
-      <input type="tel" class="contacts-form-input">
+      <p class="modal-text">Имя</p>
+      <input type="text" name="user-name" class="contacts-form-input" required>
+      <p class="modal-text">Телефон</p>
+      <input type="email" name="user-email" class="contacts-form-input" required>
+      <p class="modal-text">Почта</p>
+      <input type="tel" name="user-phone" class="contacts-form-input" required>
       <button type="submit" class="contact-form-btn">
         Отправить
       </button>
