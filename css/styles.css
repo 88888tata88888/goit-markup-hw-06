@@ -673,6 +673,34 @@ img {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 }
+.contacts-form-box{
+	position: absolute;
+	display: flex;
+	margin-top: 25px;
+}
+.modal-text-span {
+	font-family: "Roboto", sans-serif;
+	color: #757575;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+.span-text {
+	font-family: "Roboto", sans-serif;
+	color: #2196f3;
+	text-decoration: underline;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+.contact-form-btn {
+	display: flex;
+	display: block;
+}
 /*===END MODALKA===*/
 
 /*===========PORTFOLIO===============*/
