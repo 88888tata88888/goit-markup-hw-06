@@ -664,7 +664,7 @@ img {
 	font-size: 12px;
 	line-height: 1.16;
 	letter-spacing: 0.01em;
-	padding-bottom: 4px;
+
 }
 .contacts-form-input {
 	width: 100%;
@@ -672,11 +672,10 @@ img {
 	margin-bottom: 10px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
+	margin-top: 4px;
 }
 .contacts-form-box{
-	position: absolute;
-	display: flex;
-	margin-top: 25px;
+    margin-top: 20px;
 }
 .modal-text-span {
 	font-family: "Roboto", sans-serif;
@@ -698,8 +697,7 @@ img {
 	letter-spacing: 0.03em;
 }
 .contact-form-btn {
-	display: flex;
-	display: block;
+	
 }
 /*===END MODALKA===*/
 
