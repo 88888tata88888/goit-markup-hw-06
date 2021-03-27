@@ -39,6 +39,16 @@ img {
 .address {
 	font-style: normal;
 }
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
 .logo {
 	color: #000000;
 	font-family: "Raleway", sans-serif;
@@ -698,15 +708,6 @@ img {
 .contacts-form-input:focus + .modal-form-icon {
 	fill: #2196f3;
 }
-.modal-text-span {
-	font-family: "Roboto", sans-serif;
-	color: #757575;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
-}
 .span-text {
 	font-family: "Roboto", sans-serif;
 	color: #2196f3;
@@ -752,9 +753,6 @@ img {
 	line-height: 1.16;
 	letter-spacing: 0.01em;
 }
-.contacts-form-box{
-    margin-top: 20px;
-}
 .contacts-form-box:checked + .modal-text-span::before  {
 	background-image: url(../images/Vectorh.svg);
 	background-color: #2196F3;
@@ -763,7 +761,18 @@ img {
   background-repeat: no-repeat;
   border: 0px solid #fff;
   border-radius: 2px;
-
+}
+.modal-text-span {
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	color: #757575;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	align-items: center;
+	margin-top: 20px;
 }
 .modal-text-span::before {
 	content: "";
@@ -772,6 +781,8 @@ img {
 	height: 16px;
 	border: 2px solid #212121;
 	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
 }
 .contact-form-btn {
 	font-family: "Roboto", sans-serif;
@@ -787,6 +798,7 @@ img {
 	margin-top: 20px;
 	margin-bottom: 40px;
 	transition: 250ms;
+	margin-left: 135px;
 }
 .contact-form-btn:hover {
 	background-color: #188CE8;
