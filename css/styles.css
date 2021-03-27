@@ -668,6 +668,7 @@ img {
 .form-field {
 	position: relative;
 	display: flex;
+	display: block;
 }
 .modal-form-icon {
 	position: absolute;
@@ -686,6 +687,7 @@ img {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	margin-top: 4px;
+	padding-left: 42px;
 }
 .contacts-form-box{
     margin-top: 20px;
@@ -742,8 +744,8 @@ img {
 	border-radius: 4px;
 	border: none;
 	padding: 10px 55px;
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 	transition: 250ms;
 }
 /*===END MODALKA===*/
