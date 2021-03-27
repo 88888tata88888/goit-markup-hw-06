@@ -526,16 +526,20 @@
 
 
       <p class="modal-h3">Оставьте свои данные, мы вам перезвоним</p>
-    <form action="#" class="contact-form">
-      <label  class="modal-text">
-        Имя
+    <form for="user-age-20" action="#" class="contact-form">
+      <label  class="modal-text"> Имя
+        <div class="form-field">
         <input  type="text" name="user-name"  value=""  class="contacts-form-input" required >
         <svg  class="modal-form-icon" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 6C7.6575 6 9 4.6575 9 3C9 1.3425 7.6575 0 6 0C4.3425 0 3 1.3425 3 3C3 4.6575 4.3425 6 6 6ZM6 7.5C3.9975 7.5 0 8.505 0 10.5V11.25C0 11.6625 0.3375 12 0.75 12H11.25C11.6625 12 12 11.6625 12 11.25V10.5C12 8.505 8.0025 7.5 6 7.5Z"/>
           </svg>
+        </div>
       </label>
-      <label for="user-age-21" class="modal-text">Телефон</label>
-      <input  id="user-age-21" type="tel" name="user-phone"  value=""  class="contacts-form-input" required>
+
+      <label for="user-age-21" class="modal-text">Телефон
+        <input   type="tel" name="user-phone"  value=""  class="contacts-form-input" required>
+      </label>
+      
       <label for="user-age-22" class="modal-text">Почта</label>
       <input id="user-age-22" type="email" name="user-email"  value="" class="contacts-form-input" required>
       <div class="group-wrapper">
