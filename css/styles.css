@@ -679,6 +679,7 @@ img {
 	top: 50%;
 	left: 12px;
 	transform: translateY(-50%);
+	transition: 250ms;
 }
 .contacts-form-input {
 	width: 100%;
@@ -688,6 +689,14 @@ img {
 	border-radius: 4px;
 	margin-top: 4px;
 	padding-left: 42px;
+	transition: 250ms;
+}
+.contacts-form-input:focus {
+	outline: none;
+	border: 1px solid #2196F3;
+}
+.contacts-form-input:focus + .modal-form-icon {
+	fill: #2196f3;
 }
 .contacts-form-box{
     margin-top: 20px;
@@ -723,6 +732,10 @@ img {
 	padding-left: 16px;
 	padding-bottom: 12px;
 	padding-right: 16px;
+}
+.contact-form-massage:focus {
+	outline: none;
+	border: 1px solid #2196F3;
 }
 .textarea::-webkit-input-placeholder {
 	color: rgba(117, 117, 117, 0.5);
