@@ -643,6 +643,10 @@ img {
 	border-radius: 50%;
 	cursor: pointer;
 }
+.close:focus, .close:hover {
+	fill: #2196F3;
+
+}
 .is-hidden {
 	opacity: 0;
 	visibility: hidden;
@@ -798,7 +802,7 @@ img {
 	margin-top: 20px;
 	margin-bottom: 40px;
 	transition: 250ms;
-	margin-left: 135px;
+	margin-left: 133px;
 }
 .contact-form-btn:hover {
 	background-color: #188CE8;
