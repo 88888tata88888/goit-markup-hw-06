@@ -755,8 +755,8 @@ img {
 .contacts-form-box{
     margin-top: 20px;
 }
-.contacts-form-box:checked + .modal-text-span::before {
-	background-image: url("");
+.contacts-form-box:checked + .modal-text-span::before  {
+	background-image: url(images/Vectorh.svg) ;
 	border: 4px solid #2196F3;
   background-position: center;
   cursor: pointer;
