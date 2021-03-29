@@ -717,12 +717,16 @@ img {
 	border: none;
 	padding-top: 5px;
 	padding-bottom: 10px;
-	text-align: center;
+	display: inline-flex;
+	align-items: center;
+	margin-left: 12px;
 }
 .icon-button {
 	fill: #fff;
 	width: 24px;
 	height: 24px;
+	display: inline-flex;
+	margin-left: 10px;
 }
 .button-footer:hover {
 	background-color: #188CE8;
