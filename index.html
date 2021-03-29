@@ -506,18 +506,18 @@
           </a>
           </ul>
         </div>
-        <div>
-        <p class="invitation">Подпишитесь на рассылку</p>
-          <form>
+        <div class="form-wrapper">
+          <p class="invitation" >Подпишитесь на рассылку</p>
+          <form action="#" class="footer-signup-form" name="footer-signup-form">
             <label class="modal-text">
-              <input type="text" name="user-email"  value=""  class="contacts-form-footer" required placeholder="E-mail">
-            </label>
-            <button class="button-footer">
+            <input type="email" name="email" placeholder="E-mail" required class="contacts-form-footer"/>
+            <button type="submit" class="button-footer">
               Подписаться
-              <svg class="icon-button" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-                <path  d="M32 0l-32 18 10.227 3.788 15.773-14.788-11.998 16.186 0.010 0.004-0.012-0.004v8.814l5.735-6.691 7.265 2.691 5-28z"></path>
+              <svg class="icon-button">
+               <use href="./images/svg/symbol-defs (2).svg#icon-iconsend"></use>
                 </svg>
             </button>
+          </label>
           </form>
         </div>
       </div>
